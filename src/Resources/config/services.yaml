@@ -1,0 +1,5 @@
+services:
+  GepurIt\RpcApiBundle\Command\:
+    resource: '../../Command/*'
+    autowire: true
+    tags: ['console.command']
